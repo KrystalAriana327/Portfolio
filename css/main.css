@@ -181,7 +181,6 @@ nav a:hover{
 
 
 
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -288,14 +287,6 @@ nav a:hover{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media (min-width: 600px){
-	
-	.disable-link{
-		pointer-events:none;
-		cursor: default;
-	}
-	
-}
 
 @media (min-width: 600px) {
 	nav{
@@ -303,86 +294,14 @@ nav a:hover{
 		width:auto;
 	}
 	
-	header{
-		background-color: #aeccf9;
-		
-	}
 }
+
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
-
-@media (min-width: 100px) and (max-width:500px) {
-	nav{
-		display:none;
-	}
-	
-	header{
-		background: #03aacc;
-		height: 200px;
-	}	
-	h1{
-		padding-top:80px;
-		margin:auto;
-		width:410px;
-		font-size:45px;
-		color:white;
-		text-shadow: 2px 4px 0 black;
-		
-	}
-	
-	h2{
-		display:none;
-		margin:auto;
-		width:250px;
-	}	
-	#map-location{
-		display:none;
-			
-		}
-	
-	article{
-		margin-left:5px;
-		
-		}
-	.gallery li{
-		display:inline-block;
-		pointer-events:none;
-		margin:auto;
-		
-		}
-	
-	#About{
-		height:300px;	
-		border-bottom:1px solid gray ;
-	}
-	
-	.greetings{
-		padding: 30px;
-		font-size:15px;
-		
-	}	
-	#Collection{	
-		display:none;
-	}
-	#Design{
-		background-color: ;
-	}
-
-	footer{
-		background-color:#03aacc;
-		height:160px;
-		color:#000;
-	}
-	img{
-		
-		
-	}
-}
-
 
 /* ==========================================================================
    Print styles.
